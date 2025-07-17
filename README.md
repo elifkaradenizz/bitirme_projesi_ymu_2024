@@ -1,12 +1,19 @@
-# Müşteri Segmentasyonu ve Aykırı Değer Tespiti (Bitirme Projesi - 2024)
+# Müşteri Segmentasyonu ve Öneri Sistemi (Bitirme Projesi - 2024)
 
-Bu proje, denetimsiz öğrenme (unsupervised learning) yöntemleriyle müşteri verileri üzerinde segmentasyon (kümeleme) ve aykırı değer tespiti gerçekleştirmeyi amaçlamaktadır. Çalışmada farklı eksik veri tamamlama stratejileri, boyut indirgeme yöntemleri ve çeşitli kümeleme-algoritmaları birlikte değerlendirilmiştir.
+Bu proje, müşteri davranışlarını analiz ederek segmentasyon yapmak ve her segmente özel öneriler geliştirmek amacıyla hayata geçirilmiştir. E-ticaret verileri üzerinde denetimsiz öğrenme (unsupervised learning) algoritmaları uygulanmış; ayrıca eksik verilerin tamamlanması, boyut indirgeme ve aykırı değer tespiti gibi ön işleme adımlarıyla modelin başarımı karşılaştırmalı olarak analiz edilmiştir.
+
+---
 
 ## Proje Amacı
 
-- Müşterileri davranışsal benzerliklerine göre kümelere ayırmak.
-- Aykırı davranış sergileyen müşteri profillerini belirlemek.
-- Farklı ön işleme stratejilerinin (eksik veri, normalizasyon) model performansına etkisini değerlendirmek.
+- **Müşterileri davranışsal benzerliklerine göre gruplara (segmentlere) ayırmak.**  
+  Böylece her segmentin ihtiyaçlarına uygun pazarlama stratejileri geliştirilebilir.
+
+- **Segmentlere özel ürün öneri sistemi oluşturmak.**  
+  Her grubun alışveriş eğilimlerine göre kişiselleştirilmiş öneriler sunularak müşteri memnuniyeti artırılır.
+
+- **Farklı ön işleme stratejilerinin model performansına etkisini değerlendirmek.**  
+  Eksik verilerin farklı yöntemlerle tamamlanması, normalizasyon işlemleri ve boyut indirgeme tekniklerinin kümeleme ve öneri sistemlerine etkisi gözlemlenmiştir.
 
  ##  Veri Seti
 
