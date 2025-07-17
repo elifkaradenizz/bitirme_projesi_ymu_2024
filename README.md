@@ -25,17 +25,22 @@ Bu projede kullanılan veri seti, İngiltere merkezli bir çevrimiçi perakendec
 
 ### Veri Seti Özellikleri
 
-- **Toplam Gözlem Sayısı**: 541.909
-- **Sütun Sayısı**: 8
-- **Özellikler**:
-  - `InvoiceNo`: Fatura numarası
-  - `StockCode`: Ürün kodu
-  - `Description`: Ürün açıklaması
-  - `Quantity`: Satın alınan ürün adedi
-  - `InvoiceDate`: İşlem tarihi
-  - `UnitPrice`: Ürün birim fiyatı
-  - `CustomerID`: Müşteri kimliği
-  - `Country`: Ülke bilgisi
+### Veri Seti Özellikleri
+
+| Özellik       | Açıklama                 |
+|---------------|--------------------------|
+| `InvoiceNo`   | Fatura numarası           |
+| `StockCode`   | Ürün kodu                |
+| `Description` | Ürün açıklaması          |
+| `Quantity`    | Satın alınan ürün adedi  |
+| `InvoiceDate` | İşlem tarihi             |
+| `UnitPrice`   | Ürün birim fiyatı        |
+| `CustomerID`  | Müşteri kimliği          |
+| `Country`     | Ülke bilgisi             |
+
+- **Toplam Gözlem Sayısı:** 541.909  
+- **Sütun Sayısı:** 8
+
 
 
 ## Kullanılan Yöntemler ve Teknikler
@@ -58,6 +63,7 @@ Notebook dosyasını Jupyter Notebook veya Google Colab üzerinden açın:
 
 ```bash
 jupyter notebook
+```
 Adım adım hücreleri çalıştırarak görselleştirme ve analiz sonuçlarını gözlemleyin.
 
 ## Proje Özeti
